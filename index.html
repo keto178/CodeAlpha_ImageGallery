@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container ">
+                <!-- Top Bar: Logo & Search -->
+                <div class="navbar-logo-search">
+                    <a href="#" class="img-box brand-link" aria-label="Home">
+                        <img src="./img/logo-svg.svg" alt="Gallery Logo" class="brand-logo">
+                        <div class="brand-text">
+                            <span class="brand-title">Pixel<span class="gradient-text">Pulse</span></span>
+                            <span class="brand-tagline">Visual Library</span>
+                        </div>
+                    </a>
+
+                    <div class="search-box">
+                        <div class="search-input-wrapper">
+                            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                            <input type="text" id="searchInput" class="search" placeholder="Search high-resolution images..." autocomplete="off">
+                            <button type="button" class="clear-btn" id="clearBtn" title="Clear search" aria-label="Clear search">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg>
+                            </button>
+                        </div>
+                        <button class="search-btn" id="searchBtn" type="button">
+                            <span>Search</span>
+                            <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Categories Bar -->
+                <div class="category-wrapper">
+                    <div class="category-list" id="categoryList">
+                        <button class="category-btn" id="btn-All" data-category="all">
+                            <span class="cat-icon">✦</span> All
+                        </button>
+                        <button class="category-btn" id="btn-Nature" data-category="nature">
+                            <span class="cat-icon">🌿</span> Nature
+                        </button>
+                        <button class="category-btn" id="btn-Technology" data-category="technology">
+                            <span class="cat-icon">⚡</span> Technology
+                        </button>
+                        <button class="category-btn" id="btn-Architecture" data-category="architecture">
+                            <span class="cat-icon">🏛️</span> Architecture
+                        </button>
+                        <button class="category-btn" id="btn-Animals" data-category="animals">
+                            <span class="cat-icon">🐾</span> Animals
+                        </button>
+                        <button class="category-btn" id="btn-Cars" data-category="cars">
+                            <span class="cat-icon">🏎️</span> Cars
+                        </button>
+                        <button class="category-btn" id="btn-Travel" data-category="travel">
+                            <span class="cat-icon">✈️</span> Travel
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- gallery section -->
+    <main class="gallery-section">
+        <div class="container">
+            <div class="gallery-grid" id="galleryGrid">
+
+            </div>
+        </div>
+    </main>
+    <!-- Lightbox Container -->
+    <div id="lightbox" class="lightbox">
+    <button id="closeBtn" class="lightbox-close">&times;</button>
+    <button id="prevBtn" class="lightbox-arrow prev">&#10094;</button>
+    
+    <div class="lightbox-content">
+        <img id="lightboxImg" src="" alt="Expanded view">
+    </div>
+
+    <button id="nextBtn" class="lightbox-arrow next">&#10095;</button>
+    </div>
+    <script src="./script.js"></script>
+</body> 
+</html>
