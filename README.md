@@ -5,7 +5,7 @@ A modern, responsive, and accessible image gallery web application built using V
 ---
 
 ## 🚀 Live Demo
-- **Live Preview:** [View Demo on Vercel]([YOUR_VERCEL_LINK_HERE](https://code-alpha-image-gallery-bice.vercel.app/))
+- **Live Preview:** [View Demo on Vercel](https://code-alpha-image-gallery-bice.vercel.app/)
 - **Repository:** [GitHub Source Code](https://github.com/keto178/CodeAlpha_ImageGallery/tree/main)
 - **Portfolio:** [keroloseid.com](https://www.keroloseid.com/en)
 
