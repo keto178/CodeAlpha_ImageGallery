@@ -6,7 +6,7 @@ A modern, responsive, and accessible image gallery web application built using V
 
 ## 🚀 Live Demo
 - **Live Preview:** 
-- **Repository:** 
+- **Repository:** https://github.com/keto178/CodeAlpha_ImageGallery/tree/main
 
 ---
 
@@ -44,7 +44,7 @@ Kerolos Eid
 
 LinkedIn: https://www.linkedin.com/in/keroloseid159/
 
-Portfolio: keroloseid.com/en
+Portfolio:(https://www.keroloseid.com/en)
 
 
 GitHub: @YOUR_USERNAME
