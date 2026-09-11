@@ -39,13 +39,42 @@ The application integrates directly with the **Unsplash REST API** using client-
 - **Vanilla JavaScript (ES6+):** Fetch API, DOM manipulation, event delegation, and keyboard event handlers.
 - **Platform:** Vercel (Deployment) & GitHub (Version Control).
 
+
+## 🏁 Getting Started
+
+Follow these steps to set up and run the project locally on your machine.
+
+### Prerequisites
+- A modern web browser (Chrome, Firefox, Edge, Safari).
+- An [Unsplash Developer Account](https://unsplash.com/developers) to get an Access Key.
+- Recommended: [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension for VS Code.
+
 ---
+
+### Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/keto178/CodeAlpha_ImageGallery.git](https://github.com/keto178/CodeAlpha_ImageGallery.git)
+   cd CodeAlpha_ImageGallery
+
+   Configure your API Key:
+
+Open your JavaScript file (e.g., script.js).
+
+Add your Unsplash Access Key:
+
+JavaScript
+const ACCESS_KEY = "d670e1ef";
+Run the Project:
+
+Using VS Code: Right-click index.html and choose "Open with Live Server".
+
+Directly: Double-click index.html to open it in your browser.
+
 👨‍💻 Author
 Kerolos Eid
 
-LinkedIn: https://www.linkedin.com/in/keroloseid159/
+LinkedIn: keroloseid159
 
-Portfolio:(https://www.keroloseid.com/en)
-
-
-GitHub: @YOUR_USERNAME
+Portfolio: keroloseid.com
